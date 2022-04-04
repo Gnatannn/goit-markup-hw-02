@@ -1,6 +1,12 @@
+:root {
+  --main-blue: #2196f3;
+  --first-text: #212121;
+  --main-background: #e5e5e5;
+  --text-low: #757575;
+}
+
 body {
-  background-color: #e5e5e5;
-  font-family: "Raleway", sans-serif;
+  color: var(----main-background);
   font-family: "Roboto", sans-serif;
 }
 
@@ -10,6 +16,7 @@ body {
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -38,11 +45,11 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .header-logo-a {
-  color: #212121;
+  color: var(--first-text);
 }
 
 .header-item {
@@ -52,12 +59,12 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--first-text);
 }
 
 .header-item:hover,
 .header-item:focus {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .header-link {
@@ -67,12 +74,12 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-low);
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 /*--------------HERO------------ */
@@ -104,7 +111,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--main-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -118,7 +125,7 @@ body {
 /*--------------BENEFITS------------ */
 
 .benefits {
-  background-color: #e5e5e5;
+  background-color: var(----main-background);
 }
 
 .benefits-item-up {
@@ -129,7 +136,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--first-text);
 }
 
 .benefits-item-low {
@@ -139,13 +146,13 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-low);
 }
 
 /*--------------WE-DO------------ */
 
 .we-do {
-  background-color: #e5e5e5;
+  background-color: var(----main-background);
 }
 
 .we-do-title {
@@ -156,7 +163,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-text);
 }
 
 /*--------------OUR-TEAM------------ */
@@ -173,7 +180,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-text);
 }
 
 .our-team-item-low {
@@ -184,7 +191,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-low);
 }
 
 /*--------------PORTFOLIO------------ */
@@ -196,7 +203,7 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--first-text);
 }
 
 .pf-project-item-low {
@@ -206,7 +213,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-low);
 }
 
 .pf-btns-item {
@@ -217,7 +224,7 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-text);
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;
@@ -226,7 +233,7 @@ body {
 .pf-btns-item:hover,
 .pf-btns-item:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--main-blue);
 }
 
 /*--------------FOOTER------------ */
@@ -242,7 +249,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .footer-logo-a {
@@ -267,4 +274,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--main-blue);
 }
