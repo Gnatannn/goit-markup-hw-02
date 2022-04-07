@@ -94,6 +94,8 @@ body {
 }
 
 .hero-btn {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -202,6 +204,8 @@ body {
 }
 
 .pf-btns-item {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -249,6 +253,7 @@ body {
 }
 
 .footer-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
